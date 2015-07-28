@@ -41,6 +41,8 @@ function ProcessWireBootConfig() {
 	 *
 	 */
 	$rootPath = dirname(__FILE__);
+
+	
 	if(DIRECTORY_SEPARATOR != '/') $rootPath = str_replace(DIRECTORY_SEPARATOR, '/', $rootPath); 
 
 	if(isset($_SERVER['HTTP_HOST'])) {
